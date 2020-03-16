@@ -60,6 +60,8 @@ class TopLevelTag(HTML):
 
 
 class Tag(TopLevelTag):
+    # I decided to determine all the necessary fields for this class in "TopLevelTag"
+    # not to redetermine __init__ and __str__ only for "is_single"
     pass
 
 
